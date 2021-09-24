@@ -1,0 +1,89 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+
+}
+
+header, nav{
+  text-align: center;
+}
+
+header img{
+  width: 15%;
+  height: auto;
+}
+
+/*TITOLO LOGO - HEADER*/
+
+header h1{
+  margin: 0px;
+  font-family: monospace;
+  color: #00cc00
+}
+
+/*BUTTONS PER PRENOTAZIONE/INFORMAZIONE - NAV*/
+
+nav {
+  background-color: #00cc00;
+  padding: 1%;
+  width: 60%;
+  margin: auto;
+}
+
+/*CONTENUTO PRINCIPALE - MAIN */
+
+main{
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  width: 62%;
+  margin: auto;
+}
+
+.User{
+  font-size: 20px;
+  margin: 0px;
+}
+
+main h3{
+  margin: 0px;
+}
+
+main section{
+  margin-top: 10px;
+}
+
+.Via:before{
+  content: "\21A3";
+}
+
+.Via{
+  margin-top: 10px
+}
+
+/*USERS*/
+
+.Gino .Carica{
+  background-color: #ff9933;
+  width: 40%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Mike .Carica{
+  background-color: Green;
+  width: 60%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Fede .Carica{
+  background-color: #cc0000;
+  width: 20%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+main span{
+  opacity: 0
+}
