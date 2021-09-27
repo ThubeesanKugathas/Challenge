@@ -1,7 +1,15 @@
 body{
   background-image: url("background.jpg");
   background-size: cover;
+}
 
+.Contenuto{
+  box-sizing: border-box;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 header, nav{
@@ -84,6 +92,8 @@ main section{
   border-radius: 5px;
 }
 
-main span{
-  opacity: 0
+.layover{
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5%;
 }
